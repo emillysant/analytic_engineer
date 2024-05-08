@@ -22,14 +22,13 @@ O banco de dados ERP é a fonte principal de dados para este projeto. Ele conté
 
 As tabelas de staging representam os dados brutos extraídos do banco de dados ERP. Esses dados passarão por transformações e serão carregados em modelos dimensionais e fatos. As tabelas de staging incluem:
 
-    stg_product: Dados brutos dos produtos.
-    stg_category: Dados brutos das categorias de produtos.
-    stg_supplier: Dados brutos dos fornecedores.
-    stg_order: Dados brutos dos pedidos.
-    stg_orderdetail: Dados brutos dos detalhes dos pedidos.
-    stg_employee: Dados brutos dos funcionários.
-    stg_customer: Dados brutos dos clientes.
-    stg_shipper: Dados brutos das transportadoras.
+    stg_produtos: Dados brutos dos produtos.
+    stg_fornecedores: Dados brutos dos fornecedores.
+    stg_ordens: Dados brutos dos pedidos.
+    stg_ordem_detalhes: Dados brutos dos detalhes dos pedidos.
+    stg_funcionario: Dados brutos dos funcionários.
+    stg_cliente: Dados brutos dos clientes.
+    stg_transportadora: Dados brutos das transportadoras.
 
 ### Modelos Dimensionais
 
