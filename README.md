@@ -1,4 +1,4 @@
-## Documentação do Projeto de dbt - Northwind
+## Projeto dbt do banco Northwind
 
 Este documento descreve a estrutura e as práticas recomendadas para o projeto de dbt (Data Build Tool) para o banco de dados Northwind. O projeto dbt consiste em transformar os dados brutos do banco Northwind em modelos dimensionais e fatos para análise.
 Visão Geral do Projeto
